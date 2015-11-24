@@ -57,7 +57,10 @@ a {
     width:1170px;
   }
 }
-header {
+.home header {
+  height: 500px;
+}
+.header {
   background:#3B0B33;
   padding:10px;
   z-index: 100;
@@ -67,7 +70,7 @@ header {
   display: inline-block;
 }
 .logo img {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   top: 5px;
   left: 23px;
@@ -78,11 +81,11 @@ header {
   width:120px;
   height:120px;
   border-radius: 50%;
-  z-index: 0;
+  z-index: 1;
   left:0;
   top:-10px;
 }
-header nav {
+.header nav {
   display: inline-block;
   float:right;
 }
@@ -91,11 +94,11 @@ nav ul {
   padding:0;
   margin:0;
 }
-header nav ul li {
+.header nav ul li {
   display: inline-block;
   margin: 20px;
 }
-header nav ul li a {
+.header nav ul li a {
   font-size: 14px;
   color: #FFFFFF;
   line-height: 25px;
@@ -107,7 +110,7 @@ header nav ul li a {
   text-align: center;
   color:#fff;
   padding:100px;
-  min-height: 250px;
+  height: 250px;
 }
 .hero h1 {
   font-size: 36px;
@@ -124,7 +127,7 @@ header nav ul li a {
   margin:0 auto;
   text-align: right;
 }
-main {
+.home main {
   background: #FFF;
   text-align: center;
 }
@@ -142,10 +145,18 @@ main h2 img {
   background:#C2759D;
   text-align: center;
 }
+.secondary-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
 .secondary-nav ul li {
   display: inline-block;
   margin:0;
   padding:20px;
+  width:140px;
+  line-height: 1.4;
 }
 .secondary-nav ul li:hover {
   background:#fff;
@@ -157,5 +168,5 @@ main h2 img {
 .secondary-nav ul li a img {
   display: block;
   text-align: center;
-  margin:0 auto;
+  margin:0 auto 10px;
 }
