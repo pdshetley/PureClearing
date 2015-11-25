@@ -133,7 +133,7 @@ nav ul {
 }
 main h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 46px;
   color: #6398B1;
   line-height: 57px;
   vertical-align: middle;
@@ -169,4 +169,86 @@ main h2 img {
   display: block;
   text-align: center;
   margin:0 auto 10px;
+}
+.form-group ul li {
+  list-style-type: none;
+}
+
+blockquote {
+  font-size: 24px;
+  color: #6398B1;
+  line-height: 29px;
+  font-weight: 400;
+  padding-left: 400px;
+  display: block;
+}
+.intro {
+  padding-left:400px;
+}
+.contact-headline, .schedule-headline, .question-headline {
+  margin: 0;
+  text-align:center;
+  font-weight: 400;
+}
+.contact-headline { color:#C2759D; margin-top: 20px; }
+.schedule-headline { color:#6398B1; margin-left:-150px; }
+.question-headline { color:#FFFFFF; margin-right:-80px;}
+
+.one-half img {
+  max-width:100%;
+  height:auto;
+}
+.sleeping img {
+  width:50%;
+  height:auto;
+  display: block;
+  margin:0 auto;
+  text-align: center;
+}
+.sleeping p {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.underperforming img {
+  width: 40%;
+  height: auto;
+  -ms-transform: rotate(342deg); /* IE 9 */
+  -webkit-transform: rotate(342deg); /* Chrome, Safari, Opera */
+  transform: rotate(342deg);
+  display: inline-block;
+  vertical-align: middle;
+}
+.underperforming p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.dreamhome img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin:20px auto 0;
+  text-align: center;
+}
+.dreamhome p {
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.exhausted img {
+  width: 40%;
+  height: auto;
+  margin:20px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.exhausted p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
 }
