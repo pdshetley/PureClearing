@@ -5,6 +5,10 @@ body {
   background:#E4DDCA;
   font-family: "Martel Sans", Helvetica, Arial, sans-serif;
 }
+p {
+  font-family: "Halant", Georgia, Times, serif;
+  font-size:1.2em;
+}
 a {
   color:#fff;
   text-decoration: none;
